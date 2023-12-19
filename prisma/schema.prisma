@@ -1,0 +1,56 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User{
+  id         String    @id @default (uuid())
+  name       String 
+  email      String    @unique
+  password   String
+  role       Role?      @default(user)
+  contactNo  String
+  address    String
+  profileImg String
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+  
+  @@map("user")
+}
+
+model Course {
+  id         String    @id @default (uuid())
+  name        String
+  description String
+  price       Float     
+  duration    String
+  level       String
+  topics      String[]  
+  startDate   DateTime
+  endDate     DateTime
+  classDays   String[] 
+  classTime   String
+  schedule    Schedule[]
+        
+}
+
+model Schedule {
+  id         String    @id @default (uuid())
+  courseId  String
+  startDate DateTime
+  endDate   DateTime
+  classDays String[]
+  classTime String
+
+  course     Course @relation(fields: [courseId], references: [id])
+}
+
+enum Role{
+  admin
+  user
+}
