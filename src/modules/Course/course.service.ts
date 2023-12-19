@@ -11,7 +11,7 @@ const createCourse = async (course: Course): Promise<Course | null> => {
     
   });
   if (!result) {
-    throw new ApiError(400, 'failed to create book');
+    throw new ApiError(400, 'failed to create course');
   }
   return result;
 };

@@ -1,12 +1,18 @@
 import express from 'express';
 import { courseRoutes } from '../../modules/Course/course.route';
+import { scheduleRoutes } from '../../modules/schedule/schedule.route';
 
 const router = express.Router();
 
 const moduleRoutes = [
   {
     path: '/courses',
-    route: courseRoutes
+    route: courseRoutes,
+  },
+
+  {
+    path: '/schedule',
+    route: scheduleRoutes,
   },
 ];
 
