@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1', routes);
+app.use('/api', routes);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Course Server is hearing 📚!');

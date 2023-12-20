@@ -16,7 +16,7 @@ model User{
   role       Role?      @default(user)
   contactNo  String
   address    String
-  profileImg String
+  profileImg String?
   createdAt  DateTime   @default(now())
   updatedAt  DateTime   @updatedAt
   
@@ -24,31 +24,20 @@ model User{
 }
 
 model Course {
-  id         String    @id @default (uuid())
+  id          String    @id @default (uuid())
   name        String
   description String
-  price       Float     
+  price       String     
   duration    String
   level       String
   topics      String[]  
-  startDate   DateTime
-  endDate     DateTime
-  classDays   String[] 
-  classTime   String
-  schedule    Schedule[]
-        
+  schedule    Json
+ 
+
+  
 }
 
-model Schedule {
-  id         String    @id @default (uuid())
-  courseId  String
-  startDate DateTime
-  endDate   DateTime
-  classDays String[]
-  classTime String
 
-  course     Course @relation(fields: [courseId], references: [id])
-}
 
 enum Role{
   admin

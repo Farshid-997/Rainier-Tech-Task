@@ -2,7 +2,7 @@ import { Server } from 'http';
 import app from './app';
 
 async function bootstrap() {
-  const port = 5000;
+  const port = 7000;
   const server: Server = app.listen(port, () => {
     console.log(`Server running on port ${port}`);
   });

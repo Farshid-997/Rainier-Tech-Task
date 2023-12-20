@@ -5,7 +5,7 @@ import { CourseController } from './course.controller';
 
 
 const router = express.Router();
-router.post('/', auth(ENUM_USER_ROLE.ADMIN), CourseController.createCourse);
+router.post('/create-course', auth(ENUM_USER_ROLE.ADMIN), CourseController.createCourse);
 
 router.get('/', CourseController.getAllCourse);
 
@@ -19,7 +19,7 @@ router.patch(
   CourseController.updateCourse
 );
 router.delete(
-  '/books/:id',
+  '/:id',
   auth(ENUM_USER_ROLE.ADMIN),
   CourseController.deleteCourse
 );
