@@ -13,7 +13,6 @@
 6. Testing- Postman
 
 
-
 # Features
 
 1. User can Register 
@@ -24,20 +23,30 @@
 
 # Api's
 
-=> Course
+## => Course
 
  1. Create Course ->  https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/create-course
 
- 2. Get All Course -> http://localhost:7000/api/course
+ 2. Get All Course ->https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course
 
- 3. get Single Course -> http://localhost:7000/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
+ 3. get Single Course -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
 
- 4. Update course -> http://localhost:7000/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
+ 4. Update course -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
 
- 5. Delete Course -> http://localhost:7000/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
+ 5. Delete Course -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
 
  => Authentication
 
- 1. Register -> http://localhost:7000/api/auth/signup
+ 1. Register -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/auth/signup
 
- 2. Login -> http://localhost:7000/api/auth/signin
+ 2. Login -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/auth/signin
+
+ # Live Link -
+
+ https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/
+
+ # Api Link/Documentation
+
+ ### course Collection - https://documenter.getpostman.com/view/16018657/2s9Ykq5zko
+ ### user Collection -   https://documenter.getpostman.com/view/16018657/2s9Ykq5zkp
+
