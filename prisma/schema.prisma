@@ -32,13 +32,7 @@ model Course {
   level       String
   topics      String[]  
   schedule    Json
- 
-
-  
-}
-
-
-
+ }
 enum Role{
   admin
   user

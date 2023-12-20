@@ -10,7 +10,7 @@
 3. Database- Postgres
 4. ORM -Prisma
 5. Deploy- Vercel
-6. Testing- Postman
+6. Testing & Documentation - Postman
 
 
 # Features
