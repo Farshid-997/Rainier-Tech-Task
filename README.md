@@ -25,28 +25,29 @@
 
 ## => Course
 
- 1. Create Course ->  https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/create-course
+ 1. Create Course ->     https://reinier-tech-task.vercel.app/api/course/create-course
 
- 2. Get All Course ->https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course
+ 2. Get All Course  =>    https://reinier-tech-task.vercel.app/api/course
 
- 3. get Single Course -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
+ 3. get Single Course => https://reinier-tech-task.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
 
- 4. Update course -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
+ 4. Update course =>     https://reinier-tech-task.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
 
- 5. Delete Course -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
+ 5. Delete Course =>      https://reinier-tech-task.vercel.app/api/course/1a2be092-4448-47a0-94f0-12970cbb1c20
 
- => Authentication
+ ## => Authentication
 
- 1. Register -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/auth/signup
+ 1. Register => https://reinier-tech-task.vercel.app/api/auth/signup
 
- 2. Login -> https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/api/auth/signin
+ 2. Login =>    https://reinier-tech-task.vercel.app/api/auth/signin
 
- # Live Link -
+ # Live Link 
 
- https://rainier-tech-task-hjlgf6z28-farshid-997.vercel.app/
+ https://reinier-tech-task.vercel.app/
 
  # Api Link/Documentation
 
  ### course Collection - https://documenter.getpostman.com/view/16018657/2s9Ykq5zko
+
  ### user Collection -   https://documenter.getpostman.com/view/16018657/2s9Ykq5zkp
 
