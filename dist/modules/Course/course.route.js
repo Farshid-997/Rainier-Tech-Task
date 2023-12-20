@@ -12,6 +12,6 @@ const router = express_1.default.Router();
 router.post('/create-course', (0, auth_1.default)(user_1.ENUM_USER_ROLE.ADMIN), course_controller_1.CourseController.createCourse);
 router.get('/', course_controller_1.CourseController.getAllCourse);
 router.get('/:id', course_controller_1.CourseController.singleCourse);
-router.patch('/:id', course_controller_1.CourseController.updateCourse);
+router.patch('/:id', (0, auth_1.default)(user_1.ENUM_USER_ROLE.ADMIN), course_controller_1.CourseController.updateCourse);
 router.delete('/:id', (0, auth_1.default)(user_1.ENUM_USER_ROLE.ADMIN), course_controller_1.CourseController.deleteCourse);
 exports.courseRoutes = router;
