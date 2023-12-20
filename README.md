@@ -45,7 +45,7 @@
 
  https://reinier-tech-task.vercel.app/
 
- # Api Link/Documentation
+ # Api Documentation
 
  ### course Collection - https://documenter.getpostman.com/view/16018657/2s9Ykq5zko
 
